@@ -600,7 +600,7 @@ void normal_mode_init() {
     cJSON_Delete(json_config);
 
     config.accessories = accessories;
-    config.password = "021-82-017";
+    config.password = "000-00-000";
     config.setupId = "JOSE";
     config.category = homekit_accessory_category_other;
     config.config_number = FIRMWARE_VERSION_OCTAL;
